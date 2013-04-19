@@ -21,17 +21,27 @@
 </head>
 
 <body>
-
-
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span12">
-                Hello!
+                <h1>Hangman</h1>
+                <div id="body-part"> </div>
+
+                <h3>Guesses</h3>
+                <ul class="inline" id="guesses"></ul>
+
+                <h3>Guess the word!</h3>
+                <ul class="inline" id="word"> </ul>
+
+                <h3>Alphabet</h3>
+                <ul class="inline" id="alphabet"></ul>
             </div>
         </div>
     </div>
-
-    <script src="/js/jquery.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/underscore.min.js"></script>
+    <script src="javascripts/backbone.min.js"></script>
+    <script src="javascripts/app.js"></script>
 </body>
 </html>
 
